@@ -1,18 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2023 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -105,9 +90,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+
 *,
 *::before,
 *::after {
@@ -166,9 +149,7 @@ img{
   height: auto;
 }
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+
 .container{
   padding-inline: 16px;
 
@@ -246,9 +227,7 @@ img{
   background-color: var(--bg-gainsboro);
   overflow: hidden;
 }
-/*-----------------------------------*\
-  #PRELOADER
-\*-----------------------------------*/
+
 .preloader{
   position: fixed;
   top: 0;
@@ -294,11 +273,6 @@ img{
 }
 
 
-
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
-/* .navbar, */
 
 .header .container{
   display: flex; 
@@ -419,9 +393,6 @@ img{
   opacity: 0.5;
 }
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
 .hero{
   padding-block-start: 150px;
 }
@@ -477,9 +448,6 @@ img{
   padding: 10px;
   border-radius: var(--radius-circle);
 }
-/*-----------------------------------*\
-  #SERVICE
-\*-----------------------------------*/
 .service .container{
   display: grid;
   gap: 25px;
@@ -502,10 +470,6 @@ img{
 }
 
 
-
-/*-----------------------------------*\
-  #DESTINATION
-\*-----------------------------------*/
 .desti .section-title{
   margin-block-end: 40px;}
 .desti-list{
@@ -565,9 +529,7 @@ img{
   margin-inline: auto;
   margin-block-start: 40px;
 }
-/*-----------------------------------*\
-  #EXPERIENCE
-\*-----------------------------------*/
+
 .exp .container{
   display: grid;
   gap: 50px;
@@ -604,9 +566,6 @@ img{
 
 
 
-/*-----------------------------------*\
-  #GALLERY
-\*-----------------------------------*/
 .gallery .section-title{
   margin-block-end: 40px;
 }
@@ -620,10 +579,6 @@ img{
 
 
 
-
-/*-----------------------------------*\
-  #CTA
-\*-----------------------------------*/
 .cta-card{
   background-color: var(--bg-misty-rose);
   padding: 60px 20px;
@@ -643,10 +598,6 @@ img{
 }
 
 
-
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------*/
 .footer-top{
   display: grid;
   gap: 40px;
@@ -739,10 +690,7 @@ img{
 .footer-bottom-link:is(:hover, :focus-visible){
   text-decoration: underline;
 }
-/*-----------------------------------*\
-  #MEDIA QUERIES
-\*-----------------------------------*/
-/* Responsive for larger than 575-px*/
+
 @media (min-width: 575px){
   /* Reused style */
   .container{
